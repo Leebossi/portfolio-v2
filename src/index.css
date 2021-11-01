@@ -37,10 +37,24 @@
   word-spacing: 100vw;
 }
 
+.under-construction svg {
+  height: 34px;
+  fill: rgb(46, 48, 51);
+}
+
+.under-construction svg:hover {
+  fill: #f17ac8;
+  transition: 0.3s ease-in-out;
+}
+
 @media only screen and (min-width: 720px) {
   .under-construction h2 {
     font-size: 8vh;
     -webkit-text-stroke: 3px rgb(46, 48, 51);
+  }
+
+  .under-construction svg {
+    height: 54px;
   }
 }
 
@@ -48,6 +62,10 @@
   .under-construction h2 {
     font-size: 11vh;
     -webkit-text-stroke: 3px rgb(46, 48, 51);
+  }
+
+  .under-construction svg {
+    height: 80px;
   }
 }
 
