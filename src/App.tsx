@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import UnderConstruction from "./components/UnderConstruction";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <>
       <main>
         <UnderConstruction />
+        <Footer />
       </main>
     </>
   );
