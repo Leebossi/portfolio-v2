@@ -1,7 +1,8 @@
 import macOS from "../assets/gif/macos.gif";
 
 export const Footer = () => {
-  const year = 2023;
+  const year = new Date().getFullYear()
+
   return (
     <div className="footer">
       <img src={macOS} />
