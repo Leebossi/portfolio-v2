@@ -51,6 +51,7 @@ p {
   width: 100vw;
   height: 100vh;
   text-align: center;
+  background-color: black;
 }
 
 .under-construction h2 {
@@ -60,6 +61,7 @@ p {
   color: rgb(28 28 28);
   -webkit-text-stroke: 2px rgb(46, 48, 51);
   word-spacing: 100vw;
+  margin: 0;
 }
 
 .under-construction svg {

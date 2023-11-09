@@ -1,6 +1,9 @@
+import Peon from "../assets/gif/peon.gif"
+
 const UnderConstruction = () => {
   return (
     <div className="under-construction">
+      <img src={Peon} />
       <h2>site under construction...</h2>
       <a href="https://github.com/leebossi">
         <svg
