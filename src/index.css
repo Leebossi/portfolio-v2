@@ -69,6 +69,27 @@ p {
   fill: rgb(46, 48, 51);
 }
 
+.peon {
+  cursor: pointer;
+  position: relative;
+}
+
+@keyframes peon {
+  0% {opacity: 1;}
+  100% {opacity: 0; top: -50px;}
+}
+
+.peon span {
+  font-size: 16px;
+  position: absolute;
+  width: 5rem;
+  top: 10px;
+  left: 30px;
+  animation-name: peon;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 .under-construction svg:hover {
   fill: #f17ac8;
   transition: 0.3s ease-in-out;

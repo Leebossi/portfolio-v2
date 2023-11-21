@@ -1,11 +1,15 @@
-import Peon from "../assets/gif/peon.gif"
+import Peon from "./Peon";
 
 const UnderConstruction = () => {
   return (
     <div className="under-construction">
-      <img src={Peon} />
+      <Peon />
       <h2>site under construction...</h2>
-      <a href="https://github.com/leebossi">
+      <a
+        href="https://github.com/leebossi"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="60"
