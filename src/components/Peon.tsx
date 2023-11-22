@@ -20,7 +20,7 @@ const Peon = () => {
 
   return (
     <div
-      className="peon"
+      className="peon interactive"
       onClick={() => setWork((prevWork) => [...prevWork, "work work"])}
     >
       {work.map((element, index) => {
