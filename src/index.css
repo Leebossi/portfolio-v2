@@ -2,6 +2,7 @@ html body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
+  min-width: 100vw;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   overflow: overlay;
@@ -9,8 +10,6 @@ html body {
   background-color: rgb(28 28 28);
   color: rgb(106, 111, 119);
   scrollbar-color: auto;
-  place-items: center;
-  display: flex;
 }
 
 ::-webkit-scrollbar-track {
@@ -26,6 +25,35 @@ p {
   cursor: pointer;
 }
 
+nav {
+  min-width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #error-page {
   display: flex;
   flex-direction: column;
@@ -33,24 +61,15 @@ p {
   justify-content: center;
 }
 
-.navbar {
-  width: 100vw;
-  height: 10vh;
-  display: flex;
-}
-
-.navbar-section {
-  width: calc(100vw / 3);
-  display: flex;
-  justify-content: center;
-}
-
 .footer {
-  padding: 1rem;
+  position: absolute;
+  width: 100vw;
+  padding: 0.5rem;
   font-size: 0.8rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  bottom: 0;
 }
 
 .footer img {
@@ -65,12 +84,11 @@ p {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  
   text-align: center;
   background-color: black;
 }
 
-.under-construction h2, #error-page h2 {
+.page h2 {
   position: relative;
   text-transform: uppercase;
   font-size: 5vh;
@@ -80,9 +98,14 @@ p {
   margin: 0;
 }
 
-.under-construction svg {
-  height: 34px;
+.footer svg {
+  height: 33px;
   fill: rgb(46, 48, 51);
+}
+
+.footer svg:hover {
+  fill: #f17ac8;
+  transition: 0.5s ease-in-out;
 }
 
 .peon {
@@ -109,11 +132,6 @@ p {
   animation-name: peon;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-}
-
-.under-construction svg:hover {
-  fill: #f17ac8;
-  transition: 0.6s ease-in-out;
 }
 
 @media only screen and (min-width: 720px) {
