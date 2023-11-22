@@ -26,6 +26,13 @@ p {
   cursor: pointer;
 }
 
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .navbar {
   width: 100vw;
   height: 10vh;
@@ -51,19 +58,19 @@ p {
   height: auto;
 }
 
-.under-construction {
+.page {
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100vw;
-  height: 100vh; */
+  width: 100vw;
+  
   text-align: center;
   background-color: black;
 }
 
-.under-construction h2 {
+.under-construction h2, #error-page h2 {
   position: relative;
   text-transform: uppercase;
   font-size: 5vh;

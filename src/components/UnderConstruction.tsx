@@ -2,7 +2,7 @@ import Peon from "./Peon";
 
 const UnderConstruction = () => {
   return (
-    <div className="under-construction">
+    <div className="page under-construction">
       <Peon />
       <h2>site under construction...</h2>
       <a
