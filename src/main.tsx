@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import App from './App.tsx'
-import './index.css'
-import ErrorPage from './components/ErrorPage.tsx'
-import { Work } from './components/Work.tsx'
-import { Coffee } from './components/Coffee.tsx'
-import { Bikes } from './components/Bikes.tsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import App from "./App.tsx";
+import "./index.css";
+import ErrorPage from "./components/ErrorPage.tsx";
+import { Work } from "./components/Work.tsx";
+import { Coffee } from "./components/Coffee.tsx";
+import { Bikes } from "./components/Bikes.tsx";
 
 const router = createBrowserRouter([
   {
@@ -16,22 +16,22 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/work",
-        element: <Work />
+        element: <Work />,
       },
       {
         path: "/coffee",
-        element: <Coffee />
+        element: <Coffee />,
       },
       {
         path: "/bike",
-        element: <Bikes />
-      }
-    ]
+        element: <Bikes />,
+      },
+    ],
   },
-])
+]);
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

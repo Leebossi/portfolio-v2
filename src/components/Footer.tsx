@@ -2,7 +2,7 @@ import macOS from "../assets/gif/macos.gif";
 import { GitHub } from "./GitHub";
 
 export const Footer = () => {
-  const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
 
   return (
     <div className="footer">

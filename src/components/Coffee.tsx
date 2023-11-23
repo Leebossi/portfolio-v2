@@ -1,7 +1,3 @@
 export const Coffee = () => {
-    return(
-        <div>
-            Coffee
-        </div>
-    )
-}
+  return <div>Coffee</div>;
+};
