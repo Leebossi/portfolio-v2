@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Appearance, loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+import { Routes, Route } from "react-router";
+import CheckoutForm from "./components/CheckoutForm";
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_SECRET_KEY_TEST);
 console.log(import.meta.env.STRIPE_SECRET_KEY_TEST);
@@ -21,7 +23,7 @@ function App() {
   }, []);
 
   const appearance = {
-    theme: "stripe",
+    theme: "night",
   } as Appearance;
 
   const loader = "auto";
@@ -32,7 +34,11 @@ function App() {
           <Elements
             options={{ clientSecret, appearance, loader }}
             stripe={stripePromise}
-          ></Elements>
+          >
+            <Routes>
+              <Route path="/checkout" element={<CheckoutForm />}></Route>
+            </Routes>
+          </Elements>
         )}
       </main>
     </>
