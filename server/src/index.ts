@@ -1,14 +1,16 @@
 import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import Stripe from "stripe";
+import cors from "cors";
 
 dotenv.config();
 
 const app: Express = express();
 const port = process.env.PORT || 3000;
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY_TEST!);
 
 app.use(express.json());
+app.use(cors());
 
 const calculateOrderAmount = (items: any) => {
   // Calculate the order total on the server to prevent
@@ -39,7 +41,6 @@ app.post("/create-payment-intent", async (req, res) => {
     dpmCheckerLink: `https://dashboard.stripe.com/settings/payment_methods/review?transaction_id=${paymentIntent.id}`,
   });
 });
-
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Express backend");
