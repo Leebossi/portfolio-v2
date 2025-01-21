@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { loadStripe } from "@stripe/stripe-js";
+import { Appearance, loadStripe } from "@stripe/stripe-js";
+import { Elements } from "@stripe/react-stripe-js";
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_SECRET_KEY_TEST);
 console.log(import.meta.env.STRIPE_SECRET_KEY_TEST);
@@ -19,9 +20,21 @@ function App() {
       .then((data) => setClientSecret(data.setClientSecret));
   }, []);
 
+  const appearance = {
+    theme: "stripe",
+  } as Appearance;
+
+  const loader = "auto";
   return (
     <>
-      <main></main>
+      <main>
+        {clientSecret && (
+          <Elements
+            options={{ clientSecret, appearance, loader }}
+            stripe={stripePromise}
+          ></Elements>
+        )}
+      </main>
     </>
   );
 }
