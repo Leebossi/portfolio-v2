@@ -1,6 +1,8 @@
 import { NavLink, Route, Routes } from "react-router";
 import "./App.css";
 import Home from "./components/home";
+import Bikes from "./components/bikes";
+import Work from "./components/work";
 
 function App() {
   return (
@@ -18,8 +20,8 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<div>Work Component</div>} />
-          <Route path="/bikes" element={<div>Bikes Component</div>} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/bikes" element={<Bikes />} />
         </Routes>
       </main>
     </div>
