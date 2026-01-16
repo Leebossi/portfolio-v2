@@ -1,6 +1,6 @@
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -15,19 +15,24 @@
 }
 
 nav {
+  justify-content: space-between;
+  height: 5rem;
   display: flex;
   gap: 2rem;
   place-items: center;
   margin-bottom: 2rem;
+  padding-left: 1rem;
   border: 3px solid var(--border-color);
 }
 
 nav a {
-  padding: 1rem;
+  padding: 1rem 3rem;
 }
 
 nav a.active {
-  color: var(--accent-color);
+  border: 3px solid var(--border-color);
+  background-color: rgb(104, 147, 176);
+  box-shadow: 0.5rem 0.5rem black;
 }
 
 @keyframes logo-spin {
@@ -45,10 +50,20 @@ nav a.active {
   }
 }
 
-.card {
-  padding: 2em;
+.bike-components {
+  
 }
 
-.read-the-docs {
-  color: #888;
+.bike-components h3 {
+  text-transform: uppercase;
+}
+
+.bike-components ul {
+  text-align: left; 
+  list-style: none;
+  padding: 0;
+}
+
+.bike-components td {
+  min-width: 10rem;
 }
