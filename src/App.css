@@ -1,21 +1,33 @@
+
 #root {
+  height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  border: 3px solid black;
+  --border-color: black;
+  --accent-color: #007bff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.hero-img {
+  max-width: 40rem;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+nav {
+  display: flex;
+  gap: 2rem;
+  place-items: center;
+  margin-bottom: 2rem;
+  border: 3px solid var(--border-color);
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+nav a {
+  padding: 1rem;
+}
+
+nav a.active {
+  color: var(--accent-color);
 }
 
 @keyframes logo-spin {
