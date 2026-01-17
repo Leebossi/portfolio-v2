@@ -1,13 +1,12 @@
-
 #root {
   min-height: 100vh;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  border: 3px solid black;
+  --border: 5px solid black;
   --border-color: black;
-  --accent-color: #007bff;
+  --accent-color: rgb(104, 147, 176);
 }
 
 .hero-img {
@@ -15,43 +14,119 @@
 }
 
 nav {
+  width: 100%;
   justify-content: space-between;
   height: 5rem;
   display: flex;
   gap: 2rem;
   place-items: center;
   margin-bottom: 2rem;
-  padding-left: 1rem;
-  border: 3px solid var(--border-color);
+  border: var(--border);
 }
 
 nav a {
   padding: 1rem 3rem;
+  margin: 1rem;
 }
 
 nav a.active {
-  border: 3px solid var(--border-color);
+  outline: var(--border);
   background-color: rgb(104, 147, 176);
   box-shadow: 0.5rem 0.5rem black;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav a:hover {
+  outline: var(--border);
+  box-shadow: 0.5rem 0.5rem black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.nav-socials a {
+  outline: var(--border);
+  margin-right: 3rem;
+}
+.nav-socials a:hover {
+  background-color: var(--accent-color);
 }
 
-.bike-components {
-  
+#bikes {
+  text-align: left;
+}
+
+.image-carousel {
+  display: flex;
+  flex-direction: column;
+  border: var(--border);
+}
+
+.carousel-title {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.image-carousel img {
+  border-left: none;
+  border-right: none;
+  border-top: var(--border);
+  border-bottom: none;
+}
+
+.carousel-controls {
+  border-top: var(--border);
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-controls button {
+  height: 3rem;
+  width: 4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: var(--accent-color);
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-controls .button-left {
+  border-right: var(--border);
+}
+
+.carousel-controls .button-right {
+  border-left: var(--border);
+}
+
+.carousel-indicators {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  width: 100%;
+}
+
+.carousel-indicators li.active {
+  z-index: 1;
+  outline: var(--border);
+  background-color: var(--accent-color);
+}
+
+.bike-card {
+  text-align: left;
+  border: var(--border);
+  padding: 2rem;
+  box-shadow: 0.5rem 0.5rem black;
+}
+
+.bike-details {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .bike-components h3 {
@@ -59,11 +134,22 @@ nav a.active {
 }
 
 .bike-components ul {
-  text-align: left; 
+  text-align: left;
   list-style: none;
   padding: 0;
+  border: var(--border);
 }
 
-.bike-components td {
+.bike-components table {
+  width: 100%;
+  border-bottom: var(--border);
+}
+
+.bike-components table.table-last {
+  border-bottom: none;
+}
+
+.bike-components .td-strong {
+  width: 50%;
   min-width: 10rem;
 }
