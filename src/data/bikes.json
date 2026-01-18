@@ -46,5 +46,58 @@
         }
       }
     ]
+  },
+  "Wheeler": {
+    "description": "The Peloton bike is a high-tech stationary bicycle that offers live and on-demand fitness classes. It features a large touchscreen display, allowing users to stream workouts from the comfort of their own home.",
+    "images": [
+      "https://www.yksivaihde.net/uploads/default/original/3X/d/4/d4b1c966c7f2a8e4f9b4b0604a810ebe3f91621c.jpeg",
+      "https://www.yksivaihde.net/uploads/default/original/3X/7/1/710a0adc91d1d864eab052ab7904485b3a048bf7.jpeg"
+    ],
+    "components": [
+      {
+        "name": "Frame",
+        "specs": {
+          "Frame": "Wheeler 8880 Comp Line 17.5\" Steel",
+          "Fork": "Stridslands Barnacle Lite Raw"
+        }
+      },
+      {
+        "name": "Cockpit & Seating",
+        "specs": {
+          "Headset": "Tange Technoglide",
+          "Stem": "Pelago 50mm",
+          "Handlebars": "Ergotec",
+          "Grips": "Cult x Vans",
+          "Saddle": "Selle Italia Flite 1990 Titanium",
+          "Seatpost": "Noname Alloy"
+        }
+      },
+      {
+        "name": "Drivetrain",
+        "specs": {
+          "Bottom Bracket": "Tange",
+          "Crankset": "Vintage White Industries 175mm",
+          "Chainring": "Medium 36T",
+          "Pedals": "Shimano M520",
+          "Chain": "Izumi 3/32\"",
+          "Cog": "White Industries Eno Fixed 3/32\" 14T"
+        }
+      },
+      {
+        "name": "Wheels",
+        "specs": {
+          "Front Hub": "Shutter Precision PD-8",
+          "Rear Hub": "White Industries Eno Eccentric fixed/free",
+          "Rims": "Velo Orange Voyager 32H",
+          "Tires": "Continental RaceKing 55mm"
+        }
+      },
+      {
+        "name": "Brakes",
+        "specs": {
+          "Brake": "Hope Tech 4 X2 / Hope Floating 6 Bolt 180mm"
+        }
+      }
+    ]
   }
 }
