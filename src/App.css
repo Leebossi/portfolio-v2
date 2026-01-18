@@ -44,12 +44,18 @@ nav a:hover {
   outline: var(--border);
   margin-right: 3rem;
 }
+
 .nav-socials a:hover {
   background-color: var(--accent-color);
 }
 
 #bikes {
   text-align: left;
+}
+
+.bike-container {
+  border: var(--border);
+  box-shadow: 0.5rem 0.5rem black;
 }
 
 .image-carousel {
@@ -119,9 +125,7 @@ nav a:hover {
 
 .bike-card {
   text-align: left;
-  border: var(--border);
   padding: 2rem;
-  box-shadow: 0.5rem 0.5rem black;
 }
 
 .bike-details {

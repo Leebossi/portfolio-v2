@@ -1,8 +1,8 @@
 import { NavLink, Route, Routes } from "react-router";
 import "./App.css";
-import Home from "./components/home";
-import Bikes from "./components/bikes";
-import Work from "./components/work";
+import Home from "./components/Home";
+import Bikes from "./components/Bikes";
+import Work from "./components/Work";
 
 function App() {
   return (
