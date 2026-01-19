@@ -30,7 +30,7 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
   };
 
   return (
-    <div className="bike-card">
+    <div className="card">
       <div className="image-carousel">
         <div className="carousel-title">
           <h2>{title}</h2>

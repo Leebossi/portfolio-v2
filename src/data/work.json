@@ -1,0 +1,24 @@
+{
+  "Finvoicer": {
+    "company": "Finvoicer",
+    "position": "Systems Specialist",
+    "startDate": "January 2021",
+    "endDate": "November 2025",
+    "description": "Maintained and developed Finvoicer, invoicing web application tailored for small and medium businesses. Implemented new features, maintained and implemented integrations to third party platforms and optimized performance to enhance user experience and reliability.",
+    "responsibilities": [
+      "Developed and maintained new features for invoicing web application and internal collection system using PHP, MySQL, JavaScript, HTML, and CSS.",
+      "Implemented and maintained integrations with third party platforms such as point of sale systems and accounting software.",
+      "Optimized application performance by identifying bottlenecks and implementing efficient solutions.",
+      "Monitored system performance and resolved technical issues in Linux server environment."
+    ],
+    "technologies": [
+      "PHP",
+      "MySQL",
+      "Nginx",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Linux"
+    ]
+  }
+}

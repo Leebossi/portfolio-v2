@@ -9,7 +9,7 @@ const Bikes = () => {
   return (
     <div id="bikes">
       <h1>Bikes</h1>
-      <div className="bike-container">
+      <div className="container">
       <div className="bike-tabs">
         {bikeEntries.map(([bikeKey], index) => (
           <button
