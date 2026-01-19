@@ -31,8 +31,8 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
 
   return (
     <div className="card">
-      <div className="image-carousel">
-        <div className="carousel-title">
+      <div className="image-display">
+        <div className="display-title">
           <h2>{title}</h2>
         </div>
 
@@ -42,11 +42,11 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
           alt={title}
         />
 
-        <div className="carousel-controls">
+        <div className="display-controls">
           <button className="button-left" onClick={handlePrevImage}>
             {"<"}
           </button>
-          <ol className="carousel-indicators">
+          <ol className="display-indicators">
             {data.images.map((_, index) => (
               <li
                 key={index}
