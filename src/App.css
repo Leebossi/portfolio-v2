@@ -13,6 +13,12 @@
   max-width: 40rem;
 }
 
+.hero-text {
+  padding: 2rem;
+  border-top: var(--border);
+  font-size: 1.5rem;
+}
+
 nav {
   width: 100%;
   justify-content: space-between;
@@ -49,7 +55,9 @@ nav a:hover {
   background-color: var(--accent-color);
 }
 
-#home, #bikes, #work {
+#home,
+#bikes,
+#work {
   text-align: left;
 }
 
@@ -88,6 +96,11 @@ nav a:hover {
   border: var(--border);
 }
 
+.hero-image-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .display-title {
   background-color: var(--accent-color);
   color: white;
@@ -101,6 +114,10 @@ nav a:hover {
   border-right: none;
   border-top: var(--border);
   border-bottom: none;
+}
+
+#home .image-display img {
+  border-right: var(--border);
 }
 
 .display-controls {
