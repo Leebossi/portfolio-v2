@@ -8,9 +8,9 @@ const Work = () => {
       <div className="container">
         {workEntries.map(([key, job]) => (
           <div key={key} className="card">
-            <h2>
+            <h3>
               {job.position} - {job.company}
-            </h2>
+            </h3>
             <h4>
               {job.startDate} - {job.endDate || "Present"}
             </h4>

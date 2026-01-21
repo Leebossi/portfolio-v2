@@ -19,23 +19,19 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
 
   const handlePrevImage = () => {
     setCurrentImageIndex((prev) =>
-      prev === 0 ? data.images.length - 1 : prev - 1
+      prev === 0 ? data.images.length - 1 : prev - 1,
     );
   };
 
   const handleNextImage = () => {
     setCurrentImageIndex((prev) =>
-      prev === data.images.length - 1 ? 0 : prev + 1
+      prev === data.images.length - 1 ? 0 : prev + 1,
     );
   };
 
   return (
     <div className="card">
       <div className="image-display">
-        <div className="display-title">
-          <h2>{title}</h2>
-        </div>
-
         <img
           src={data.images[currentImageIndex]}
           className="bike-img"
@@ -62,8 +58,8 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
       </div>
 
       <div className="bike-details">{data.description}</div>
+      <h2>Components</h2>
       <div className="bike-components">
-        <h3>Components</h3>
         <ul>
           {data.components.map((component, index) => (
             <li key={index}>
