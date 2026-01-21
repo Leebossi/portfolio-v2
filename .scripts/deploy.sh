@@ -22,7 +22,7 @@ npm run build
 
 # Copying dist to /var/www/
 echo "Copying dist to /var/www/personal-site"
-sudo -n cp -r dist/* /var/www/personal-site
+sudo cp -r dist/* /var/www/personal-site
 
 
 
