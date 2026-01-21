@@ -1,3 +1,5 @@
+import image from "../assets/img/hero.jpg"
+
 const Home = () => {
   return (
     <div id="home">
@@ -9,7 +11,7 @@ const Home = () => {
           </div>
           <div className="hero-image-container">
             <img
-              src="/src/assets/img/peloton-5.jpg"
+              src={image}
               className="hero-img"
               alt="leevi"
             />
