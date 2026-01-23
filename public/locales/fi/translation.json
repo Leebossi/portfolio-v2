@@ -4,9 +4,8 @@
     "work": "Työ",
     "bikes": "Pyörät"
   },
-  "title": "Welcome to react using react-i18next",
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
+  "home": {
+    "title": "Ohjelmistokehittäjä, tee-se-itse -kaveri ja pyöräintoilija",
+    "description": "Hei! Olen Leevi, intohimoinen ohjelmistokehittäjä, joka rakastaa luoda ja tehdä asioita. Kun en koodaa, minut löytää pyörien parista. Tervetuloa henkilökohtaiselle sivustolleni!"
   }
 }

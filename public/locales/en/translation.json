@@ -4,9 +4,8 @@
     "work": "Work",
     "bikes": "Bikes"
   },
-  "title": "Welcome to react using react-i18next",
-  "description": {
-    "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
-    "part2": "Switch language between english and german using buttons above."
+  "home": {
+    "title": "Software Developer, DIY-dude and bike enthusiast",
+    "description": "Hey! I'm Leevi, a passionate software developer with a love for creating and making things. When I'm not coding, you can find me tinkering with and riding bikes. Welcome to my personal site!"
   }
 }
