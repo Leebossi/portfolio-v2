@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 interface BikeData {
   description: string;
@@ -15,6 +16,7 @@ interface BikeCardProps {
 }
 
 const BikeCard = ({ title, data }: BikeCardProps) => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const handlePrevImage = () => {
@@ -58,12 +60,12 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
       </div>
 
       <div className="bike-details">{data.description}</div>
-      <h2>Components</h2>
+      <h2>{t("bikes.components")}</h2>
       <div className="bike-components">
         <ul>
           {data.components.map((component, index) => (
             <li key={index}>
-              {component.name !== "Frame" && <h3>{component.name}</h3>}
+              {component.name !== "Frame" && <h3>{t(`bikes.${component.name}`)}</h3>}
               <table
                 className={
                   index === data.components.length - 1 ? "table-last" : ""
@@ -73,7 +75,7 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
                   {Object.entries(component.specs).map(([key, value]) => (
                     <tr key={key}>
                       <td className="td-strong">
-                        <strong>{key}:</strong>
+                        <strong>{t(`bikes.${key}`)}:</strong>
                       </td>
                       <td>{value}</td>
                     </tr>

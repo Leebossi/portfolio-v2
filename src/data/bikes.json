@@ -11,38 +11,38 @@
       {
         "name": "Frame",
         "specs": {
-          "Frame": "53cm NJS Steel"
+          "frame": "53cm NJS Steel"
         }
       },
       {
         "name": "Cockpit & Seating",
         "specs": {
-          "Headset": "Tange Levin NJS",
-          "Stem": "Nitto CT-02",
-          "Handlebars": "Nitto for shred",
-          "Grips": "Cotton tape with Nitto bar ends",
-          "Saddle": "Selle Italia Flite Titanium",
-          "Seatpost": "Nitto S65"
+          "headset": "Tange Levin NJS",
+          "stem": "Nitto CT-02",
+          "handlebar": "Nitto for shred",
+          "grips": "Cotton tape with Nitto bar ends",
+          "saddle": "Selle Italia Flite Titanium",
+          "seatpost": "Nitto S65"
         }
       },
       {
         "name": "Drivetrain",
         "specs": {
-          "Bottom Bracket": "Sugino BB",
-          "Crankset": "Sugino 75 DD2 165mm",
-          "Chainring": "AARN 53T",
-          "Pedals": "Shimano XT",
-          "Chain": "Izumi Jet Black",
-          "Cog": "EAI 19T / Dura-Ace 14T"
+          "bottom bracket": "Sugino BB",
+          "crankset": "Sugino 75 DD2 165mm",
+          "chainring": "AARN 53T",
+          "pedals": "Shimano XT",
+          "chain": "Izumi Jet Black",
+          "cog": "EAI 19T / Dura-Ace 14T"
         }
       },
       {
         "name": "Wheels",
         "specs": {
-          "Front Wheel": "Aerospoke",
-          "Rear Hub": "Shimano Dura-Ace 7600",
-          "Rear Rim": "H+SON Archetype 32H",
-          "Tires": "Continental GP5000 / Continental Gatorskin"
+          "front wheel": "Aerospoke",
+          "rear hub": "Shimano Dura-Ace 7600",
+          "rear rim": "H+SON Archetype 32H",
+          "tires": "Continental GP5000 / Continental Gatorskin"
         }
       }
     ]
@@ -57,45 +57,45 @@
       {
         "name": "Frame",
         "specs": {
-          "Frame": "Wheeler 8880 Comp Line 17.5\" Steel",
-          "Fork": "Stridslands Barnacle Lite Raw"
+          "frame": "Wheeler 8880 Comp Line 17.5\" Steel",
+          "fork": "Stridslands Barnacle Lite Raw"
         }
       },
       {
         "name": "Cockpit & Seating",
         "specs": {
-          "Headset": "Tange Technoglide",
-          "Stem": "Pelago 50mm",
-          "Handlebars": "Ergotec",
-          "Grips": "Cult x Vans",
-          "Saddle": "Selle Italia Flite 1990 Titanium",
-          "Seatpost": "Noname Alloy"
+          "headset": "Tange Technoglide",
+          "stem": "Pelago 50mm",
+          "handlebar": "Ergotec",
+          "grips": "Cult x Vans",
+          "saddle": "Selle Italia Flite 1990 Titanium",
+          "seatpost": "Noname Alloy"
         }
       },
       {
         "name": "Drivetrain",
         "specs": {
-          "Bottom Bracket": "Tange",
-          "Crankset": "Vintage White Industries 175mm",
-          "Chainring": "Medium 36T",
-          "Pedals": "Shimano M520",
-          "Chain": "Izumi 3/32\"",
-          "Cog": "White Industries Eno Fixed 3/32\" 14T"
+          "bottom bracket": "Tange",
+          "crankset": "Vintage White Industries 175mm",
+          "chainring": "Medium 36T",
+          "pedals": "Shimano M520",
+          "chain": "Izumi 3/32\"",
+          "cog": "White Industries Eno Fixed 3/32\" 14T"
         }
       },
       {
         "name": "Wheels",
         "specs": {
-          "Front Hub": "Shutter Precision PD-8",
-          "Rear Hub": "White Industries Eno Eccentric fixed/free",
-          "Rims": "Velo Orange Voyager 32H",
-          "Tires": "Continental RaceKing 55mm"
+          "front hub": "Shutter Precision PD-8",
+          "rear hub": "White Industries Eno Eccentric fixed/free",
+          "rims": "Velo Orange Voyager 32H",
+          "tires": "Continental RaceKing 55mm"
         }
       },
       {
         "name": "Brakes",
         "specs": {
-          "Brake": "Hope Tech 4 X2 / Hope Floating 6 Bolt 180mm"
+          "brake": "Hope Tech 4 X2 / Hope Floating 6 Bolt 180mm"
         }
       }
     ]
