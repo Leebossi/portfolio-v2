@@ -173,6 +173,10 @@ nav a:hover {
   border: var(--border);
 }
 
+.bike-components ul {
+  list-style: none;
+}
+
 #bikes h2 {
   padding: 1rem 0;
 }
@@ -300,6 +304,10 @@ nav a:hover {
 
   #bikes .card h2 {
     padding: 1rem;
+  }
+
+  .bike-components ul {
+    list-style: none;
   }
 
   .bike-components {

@@ -1,10 +1,12 @@
+import { useTranslation } from "react-i18next";
 import workData from "../data/work.json";
 
 const Work = () => {
+  const { t } = useTranslation();
   const workEntries = Object.entries(workData);
   return (
     <div id="work">
-      <h1>Work Experience</h1>
+      <h1>{t("work.title")}</h1>
       <div className="container">
         {workEntries.map(([key, job]) => (
           <div key={key} className="card">
@@ -15,8 +17,8 @@ const Work = () => {
               {job.startDate} - {job.endDate || "Present"}
             </h4>
             <ul>
-              {job.responsibilities.map((resp, index) => (
-                <li key={index}>{resp}</li>
+              {job.responsibilities.map((_resp, index) => (
+                <li key={index}>{t(`work.${index+1}`)}</li>
               ))}
             </ul>
           </div>

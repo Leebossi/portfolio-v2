@@ -38,7 +38,3 @@ button {
   cursor: pointer;
   border: var(--border);
 }
-
-ul {
-  list-style-type: none;
-}
