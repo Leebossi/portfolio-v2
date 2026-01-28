@@ -18,21 +18,21 @@ const Work = () => {
             </h4>
             <ul>
               {job.responsibilities.map((_resp, index) => (
-                <li key={index}>{t(`work.${index+1}`)}</li>
+                <li key={index}>{t(`work.${index + 1}`)}</li>
               ))}
             </ul>
           </div>
         ))}
       </div>
-      <button className="cv-button">
-        <a
-          href="/src/assets/docs/Leevi_Ossi_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View CV
-        </a>
-      </button>
+
+      <a
+        className="cv-button"
+        href="/cv.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View CV
+      </a>
     </div>
   );
 };
