@@ -269,6 +269,7 @@ nav a:hover {
   padding: 1rem 2rem;
   font-size: 1rem;
   box-shadow: 0.5rem 0.5rem black;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 1100px) {
@@ -278,6 +279,14 @@ nav a:hover {
 }
 
 @media (max-width: 910px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
   nav {
     width: 100%;
     height: auto;
@@ -407,7 +416,7 @@ nav a:hover {
     font-size: 6rem;
     z-index: 3;
     background-color: var(--secondary-color);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     position: fixed;
     top: 0;
@@ -422,6 +431,11 @@ nav a:hover {
 
   .off-screen-menu a.active {
     color: var(--accent-color);
+  }
+
+  #work,
+  #bikes {
+    font-size: 1rem;
   }
 
   .hero-image-container {
@@ -467,6 +481,7 @@ nav a:hover {
 
   .container {
     box-shadow: 0.25rem 0.25rem;
+    margin-bottom: 4rem;
   }
 
   #home .image-display {
@@ -489,6 +504,10 @@ nav a:hover {
 
   .bike-tabs {
     border: none;
+  }
+
+  .bike-tabs button {
+    font-size: 1rem;
   }
 
   .image-display {

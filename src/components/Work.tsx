@@ -25,13 +25,8 @@ const Work = () => {
         ))}
       </div>
 
-      <a
-        className="cv-button"
-        href="/cv.html"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        View CV
+      <a href="/cv.html" target="_blank" rel="noopener noreferrer">
+        <button className="cv-button">View CV</button>
       </a>
     </div>
   );
