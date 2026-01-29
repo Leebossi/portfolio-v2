@@ -43,9 +43,9 @@ const NavBar = () => {
         </div>
       </div>
       <div className={`off-screen-menu ${isOpen ? "active" : ""}`}>
-        <NavLink to="/">{t("nav.home")}</NavLink>
-        <NavLink to="/work">{t("nav.work")}</NavLink>
-        <NavLink to="/bikes">{t("nav.bikes")}</NavLink>
+        <NavLink to="/" onClick={() => setIsOpen(false)}>{t("nav.home")}</NavLink>
+        <NavLink to="/work" onClick={() => setIsOpen(false)}>{t("nav.work")}</NavLink>
+        <NavLink to="/bikes" onClick={() => setIsOpen(false)}>{t("nav.bikes")}</NavLink>
         <div className="nav-mobile-secondary">
           <button
             onClick={() =>
