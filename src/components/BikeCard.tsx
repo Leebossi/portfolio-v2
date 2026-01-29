@@ -2,7 +2,6 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 interface BikeData {
-  description: string;
   images: string[];
   components: Array<{
     name: string;
@@ -59,13 +58,15 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
         </div>
       </div>
 
-      <div className="bike-details">{data.description}</div>
+      <div className="bike-details">{t(`bikes.${title}.description`)}</div>
       <h2>{t("bikes.components")}</h2>
       <div className="bike-components">
         <ul>
           {data.components.map((component, index) => (
             <li key={index}>
-              {component.name !== "Frame" && <h3>{t(`bikes.${component.name}`)}</h3>}
+              {component.name !== "Frame" && (
+                <h3>{t(`bikes.${component.name}`)}</h3>
+              )}
               <table
                 className={
                   index === data.components.length - 1 ? "table-last" : ""

@@ -48,6 +48,12 @@
     "front hub": "Front Hub",
     "rear hub": "Rear Hub",
     "rims": "Rims",
-    "brake": "Brake"
+    "brake": "Brake",
+    "Peloton": {
+      "description": "Japanese keirin track bike. I'm the second owner in Finland that's ridden the frame since it's retirement from racing in Japan. Most precious bike I own and will never get rid of it. This is far from full NJS build and some would considered it even bastardized. I have always loved playing with polarizing statement pieces such as the LOOK Ergostem or the pink Aerospoke, which is definitely a head-turner in the streets."
+    },
+    "Wheeler": {
+      "description": "Taiwanese 90s MTB with Tange tubing paired with coveted Stridsland fork. Converted into fixed gear per my liking with niche White Industries eccentric hub. Blinged out with beautiful silver components and UK machined Hope enduro brake. This build also hosts practicality with it's dynamo hub. I was very happy to get my hands on Sugino made vintage White Industries cranks that I polished."
+    }
   }
 }

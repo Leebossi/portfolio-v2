@@ -1,6 +1,5 @@
 {
   "Peloton": {
-    "description": "The Peloton bike is a high-tech stationary bicycle that offers live and on-demand fitness classes. It features a large touchscreen display, allowing users to stream workouts from the comfort of their own home.",
     "images": [
       "https://www.yksivaihde.net/uploads/default/original/3X/8/6/867f9bd4b7cdc1c4d14603182a496a7002c2a5a5.jpeg",
       "https://live.staticflickr.com/65535/52326850789_76f6d3ad27_k.jpg",
@@ -48,7 +47,6 @@
     ]
   },
   "Wheeler": {
-    "description": "The Peloton bike is a high-tech stationary bicycle that offers live and on-demand fitness classes. It features a large touchscreen display, allowing users to stream workouts from the comfort of their own home.",
     "images": [
       "https://www.yksivaihde.net/uploads/default/original/3X/d/4/d4b1c966c7f2a8e4f9b4b0604a810ebe3f91621c.jpeg",
       "https://www.yksivaihde.net/uploads/default/original/3X/7/1/710a0adc91d1d864eab052ab7904485b3a048bf7.jpeg"

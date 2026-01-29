@@ -48,6 +48,12 @@
     "front hub": "Etunapa",
     "rear hub": "Takunapa",
     "rims": "Vanteet",
-    "brake": "Jarru"
+    "brake": "Jarru",
+    "Peloton": {
+      "description": "Japanilainen keirin-ratapyörä. Olen Suomessa toinen omistaja, joka on rungolla ajanut sen jäätyään eläkkeelle kilpailuista Japanissa. Minulle arvokkain omistamani pyörä, enkä tule koskaan luopumaan siitä. Tämä on kaukana täydellisestä NJS-kasauksesta, jotkut saattavat pitää jopa epäpyhänä. Olen aina rakastanut leikitellä polarisoivilla osilla, kuten LOOK ergostemmin tai pinkin Aerospoken kanssa. Joka muuten todellakin kääntää päitä kaduilla."
+    },
+    "Wheeler": {
+      "description": "Taiwanilainen Tangen putkilla oleva ysärimaasturi paritettuna halutulla Stridsland-haarukalla. Muunnettu kiinteävälitteiseksi, minun makuuni, niche White Industries epäkeskon takanavan avulla. Höystetty kauniilla hopeisilla komponenteilla ja tehokkaalla Britanniassa koneistetulla Hope endurojarrulla. Kasaus tarjoaa myös käytännöllisyyttä dynamonavan ansiosta. Olin erittäin iloinen saadessani käsiini Suginon valmistamat White Industriesin vintagekammet, jotka kiillotin."
+    }
   }
 }
