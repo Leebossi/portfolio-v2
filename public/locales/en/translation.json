@@ -4,12 +4,27 @@
     "work": "Work",
     "bikes": "Bikes"
   },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
   "home": {
     "title": "Software Developer, DIY-dude and bike enthusiast",
     "description": "Hey! I'm Leevi, a passionate software developer with a love for creating and making things. When I'm not coding, you can find me tinkering with and riding bikes. Welcome to my personal site!"
   },
   "work": {
     "title": "Work Experience",
+    "position": "Systems Specialist",
     "1": "Developed and maintained new features for invoicing web application and internal collection system using PHP, MySQL, JavaScript, HTML, and CSS.",
     "2": "Implemented and maintained integrations with third party platforms such as point of sale systems and accounting software.",
     "3": "Optimized application performance by identifying bottlenecks and implementing efficient solutions.",

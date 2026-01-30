@@ -4,12 +4,27 @@
     "work": "Työ",
     "bikes": "Pyörät"
   },
+  "months": {
+    "january": "Tammikuu",
+    "february": "Helmikuu",
+    "march": "Maaliskuu",
+    "april": "Huhtikuu",
+    "may": "Toukokuu",
+    "june": "Kesäkuu",
+    "july": "Heinäkuu",
+    "august": "Elokuu",
+    "september": "Syyskuu",
+    "october": "Lokakuu",
+    "november": "Marraskuu",
+    "december": "Joulukuu"
+  },
   "home": {
     "title": "Ohjelmistokehittäjä, tee-se-itse -kaveri ja pyöräintoilija",
     "description": "Hei! Olen Leevi, intohimoinen ohjelmistokehittäjä, joka rakastaa luoda ja tehdä asioita. Kun en koodaa, minut löytää pyörien parista. Tervetuloa henkilökohtaiselle sivustolleni!"
   },
   "work": {
     "title": "Työkokemus",
+    "position": "Järjestelmäasiantuntija",
     "1": "Kehitin uusia ominaisuuksia laskutus web-sovellukseen ja sisäiseen perintäjärjestelmään käyttäen PHP:tä, MySQL:ää, JavaScriptiä, HTML:ää ja CSS:ää.",
     "2": "Toteutin ja ylläpidin integraatioita ulkoisiin alustoihin, kuten kassajärjestelmiin ja kirjanpitosovelluksiin.",
     "3": "Optimoin sovelluksen suorituskykyä tunnistamalla pullonkauloja ja toteuttamalla tehokkaita ratkaisuja.",

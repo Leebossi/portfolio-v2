@@ -1,9 +1,11 @@
 {
   "Finvoicer": {
-    "company": "Finvoicer",
+    "company": "Finvoicer Group Oy",
     "position": "Systems Specialist",
-    "startDate": "January 2021",
-    "endDate": "November 2025",
+    "startMonth": "january",
+    "startYear": "2021",
+    "endMonth": "november",
+    "endYear": "2025",
     "description": "Maintained and developed Finvoicer, invoicing web application tailored for small and medium businesses. Implemented new features, maintained and implemented integrations to third party platforms and optimized performance to enhance user experience and reliability.",
     "responsibilities": [
       "Developed and maintained new features for invoicing web application and internal collection system using PHP, MySQL, JavaScript, HTML, and CSS.",

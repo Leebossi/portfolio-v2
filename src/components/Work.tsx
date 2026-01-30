@@ -11,10 +11,10 @@ const Work = () => {
         {workEntries.map(([key, job]) => (
           <div key={key} className="card">
             <h3>
-              {job.position} - {job.company}
+              {t("work.position")} - {job.company}
             </h3>
             <h4>
-              {job.startDate} - {job.endDate || "Present"}
+              {t(`months.${job.startMonth}`)} {job.startYear} - {t(`months.${job.endMonth}`)} {job.endYear}
             </h4>
             <ul>
               {job.responsibilities.map((_resp, index) => (
