@@ -117,6 +117,11 @@ nav a:hover {
   margin-bottom: 3rem;
 }
 
+#bikes .container,
+#home .container {
+  margin-bottom: 4rem;
+}
+
 #work li,
 #work h4 {
   padding-bottom: 1rem;
