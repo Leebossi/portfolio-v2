@@ -140,7 +140,7 @@ nav a:hover {
   background-color: inherit;
   font-weight: bold;
   text-transform: uppercase;
-  /* border: none; */
+  border: none;
   cursor: pointer;
 }
 
@@ -174,7 +174,6 @@ nav a:hover {
 
 .display-controls {
   border-top: var(--border);
-  justify-content: space-between;
   display: flex;
   justify-content: space-between;
 }
@@ -466,12 +465,6 @@ nav a:hover {
 
   .display-controls button {
     height: 2rem;
-    width: 4rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    background-color: var(--accent-color);
-    border: none;
-    cursor: pointer;
   }
 }
 
@@ -526,10 +519,6 @@ nav a:hover {
 
   #bikes .card h2 {
     padding: 1rem;
-  }
-
-  .bike-components ul {
-    list-style: none;
   }
 
   .bike-components {
