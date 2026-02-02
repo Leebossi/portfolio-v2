@@ -32,6 +32,7 @@
     "4": "Monitored system performance and resolved technical issues in Linux/Nginx server environment."
   },
   "bikes": {
+    "loading": "Loading bikes...",
     "title": "Bikes",
     "specs": "Specifications",
     "components": "Components",

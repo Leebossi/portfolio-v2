@@ -25,7 +25,7 @@ const Bikes = () => {
         return new Promise((resolve) => {
           const img = new Image();
           img.onload = resolve;
-          img.onerror = resolve; // Resolve on error too so we don't get stuck
+          img.onerror = resolve;
           img.src = url;
         });
       });
@@ -43,7 +43,7 @@ const Bikes = () => {
         <h1>{t("bikes.title")}</h1>
         <div className="container">
           <div style={{ padding: "2rem", textAlign: "center" }}>
-            <p>Loading bikes...</p>
+            <p>{t("bikes.loading")}</p>
           </div>
         </div>
       </div>

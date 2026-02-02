@@ -32,6 +32,7 @@
     "4": "Seurasin järjestelmän suorituskykyä ja ratkaisin teknisiä ongelmia Nginx/Linux -palvelinympäristössä."
   },
   "bikes": {
+    "loading": "Ladataan pyöriä...",
     "title": "Pyörät",
     "specs": "Tekniset tiedot",
     "components": "Komponentit",
