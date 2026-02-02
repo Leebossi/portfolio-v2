@@ -41,6 +41,13 @@ const BikeCard = ({ title, data }: BikeCardProps) => {
 
   const onTouchMove = (e: React.TouchEvent) => {
     setTouchEnd(e.targetTouches[0].clientX);
+    // Prevent vertical scrolling while swiping horizontally
+    if (touchStart !== null) {
+      const distance = Math.abs(touchStart - e.targetTouches[0].clientX);
+      if (distance > 10) {
+        e.preventDefault();
+      }
+    }
   };
 
   const onTouchEnd = () => {
