@@ -25,6 +25,7 @@
   "work": {
     "title": "Työkokemus",
     "position": "Järjestelmäasiantuntija",
+    "viewCV": "Näytä CV",
     "1": "Kehitin uusia ominaisuuksia laskutus web-sovellukseen ja sisäiseen perintäjärjestelmään käyttäen PHP:tä, MySQL:ää, JavaScriptiä, HTML:ää ja CSS:ää.",
     "2": "Toteutin ja ylläpidin integraatioita ulkoisiin alustoihin, kuten kassajärjestelmiin ja kirjanpitosovelluksiin.",
     "3": "Optimoin sovelluksen suorituskykyä tunnistamalla pullonkauloja ja toteuttamalla tehokkaita ratkaisuja.",

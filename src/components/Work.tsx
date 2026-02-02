@@ -26,7 +26,7 @@ const Work = () => {
       </div>
 
       <a href="/cv.html" target="_blank" rel="noopener noreferrer">
-        <button className="cv-button">View CV</button>
+        <button className="cv-button">{t("work.viewCV")}</button>
       </a>
     </div>
   );
