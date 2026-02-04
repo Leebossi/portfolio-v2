@@ -190,7 +190,8 @@ a:visited {
   #contact,
   #experience,
   #technology,
-  #education {
+  #education,
+  .technology-section {
     grid-template-columns: auto;
     row-gap: 1rem;
   }
