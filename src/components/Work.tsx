@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import workData from "../data/work.json";
+import i18n from "../i18n";
 
 const Work = () => {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ const Work = () => {
         ))}
       </div>
 
-      <a href="/cv.html" target="_blank" rel="noopener noreferrer">
+      <a href={i18n.language === "en" ? "/cv-en.html" : "/cv-fi.html"} target="_blank" rel="noopener noreferrer">
         <button className="cv-button">{t("work.viewCV")}</button>
       </a>
     </div>
